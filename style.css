@@ -1,0 +1,150 @@
+body
+{
+	background-image: radial-gradient(#003968,#00082c);
+	min-height: 95vh;
+	font-family: Josefin Sans, Arial;
+}
+
+div#caja-madre
+{
+	background-image: url("IMG/PC.png");
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	height: 625px;
+	max-height: 625px;
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 25px;
+}
+div.presentation
+{
+	width: 50%;
+	height: 100%;
+	background: ;
+	padding: 100px;
+	float: left;
+	box-sizing: border-box;
+}
+div.contact
+{
+	width: 50%;
+	height: 100%;
+	background: ;
+	padding: 30px;
+	float: left;
+	box-sizing: border-box;
+}
+p.white
+{
+	color: white;
+}
+p.black
+{
+	color: black;
+}
+p#name
+{
+	font-family: Abril Fatface, Bodoni MT;
+	font-size: 50px;
+}
+p#profetion
+{
+	font-size: 25px;
+}
+p#number
+{
+	font-size: 32px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+@media screen and (max-width: 1000px)
+{
+
+body
+{
+	background: ;
+}
+
+div#caja-madre
+{
+	background-image: url("IMG/TABLET.png");
+}
+
+div.presentation
+{
+	padding: 80px;
+}
+div.contact
+{
+	padding: 50px;
+}
+
+p#name
+{
+	font-size: 40px;
+}
+p#profetion
+{
+	font-size: 25px;
+}
+p#number
+{
+	font-size: 22px;
+}
+
+}
+
+@media screen and (max-width: 600px)
+{
+
+body
+{
+	background: ;
+}
+
+div#caja-madre
+{
+	background-image: url("IMG/PHONE.png");
+	width: 100%;
+}
+div.presentation
+{
+	width: 100%;
+	height: 50%;
+	background: ;
+	padding: 60px;
+	float: left;
+	box-sizing: border-box;
+}
+div.contact
+{
+	width: 100%;
+	height: 50%;
+	background: ;
+	padding: 0;
+	margin-top: 0px;
+	margin-left: 60px;
+	float: left;
+	box-sizing: border-box;
+}
+p#name
+{
+	font-size: 25px;
+}
+p#profetion
+{
+	font-size: 18px;
+}
+p#number
+{
+	font-size: 20px;
+}
+
+}
